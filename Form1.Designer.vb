@@ -149,10 +149,13 @@ Partial Class Form1
         'Label9
         '
         Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label9.Font = New System.Drawing.Font("Tahoma", 20.0!, System.Drawing.FontStyle.Bold)
+        Me.Label9.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.Label9.Location = New System.Drawing.Point(274, 22)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(206, 48)
+        Me.Label9.Size = New System.Drawing.Size(208, 50)
         Me.Label9.TabIndex = 2
         Me.Label9.Text = "Tictactoe"
         '
@@ -160,11 +163,11 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 646)
+        Me.ClientSize = New System.Drawing.Size(800, 698)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Grpbox)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "FrmTicTacToe"
         Me.Grpbox.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
