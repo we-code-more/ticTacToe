@@ -36,7 +36,7 @@ Partial Class Form1
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Grpbox = New System.Windows.Forms.GroupBox()
-        Me.Label11 = New System.Windows.Forms.Label()
+        Me.lblPlayerTurn = New System.Windows.Forms.Label()
         Me.Grpbox.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -196,21 +196,23 @@ Partial Class Form1
         Me.Grpbox.TabIndex = 1
         Me.Grpbox.TabStop = False
         '
-        'Label11
+        'lblPlayerTurn
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(557, 46)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(84, 20)
-        Me.Label11.TabIndex = 6
-        Me.Label11.Text = "Player turn"
+        Me.lblPlayerTurn.AutoSize = True
+        Me.lblPlayerTurn.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.lblPlayerTurn.ForeColor = System.Drawing.Color.DarkCyan
+        Me.lblPlayerTurn.Location = New System.Drawing.Point(554, 28)
+        Me.lblPlayerTurn.Name = "lblPlayerTurn"
+        Me.lblPlayerTurn.Size = New System.Drawing.Size(196, 42)
+        Me.lblPlayerTurn.TabIndex = 6
+        Me.lblPlayerTurn.Text = "Player turn"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 729)
-        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.lblPlayerTurn)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -237,5 +239,5 @@ Partial Class Form1
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Grpbox As GroupBox
-    Friend WithEvents Label11 As Label
+    Friend WithEvents lblPlayerTurn As Label
 End Class
